@@ -1,6 +1,9 @@
 name: Deploy vpn-clash.net to cPanel
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
